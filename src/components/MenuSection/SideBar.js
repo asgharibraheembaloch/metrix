@@ -40,6 +40,7 @@ export default function PermanentDrawerLeft() {
       <Drawer
         sx={{
           width: drawerWidth,
+          backgroundColor: 'red',
           flexShrink: 0,
           '& .MuiDrawer-paper': {
             width: drawerWidth,
