@@ -11,8 +11,8 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
+//import InboxIcon from '@mui/icons-material/MoveToInbox';
+//import MailIcon from '@mui/icons-material/Mail';
 import AutoAwesomeMosaicIcon from '@mui/icons-material/AutoAwesomeMosaic';
 import CalculateIcon from '@mui/icons-material/Calculate';
 import AssessmentIcon from '@mui/icons-material/Assessment';
@@ -49,6 +49,11 @@ export default function PermanentDrawerLeft() {
         variant="permanent"
         anchor="left"
       >
+        <Toolbar>
+          <Typography variant="h6" noWrap component="div">
+            Metrix
+          </Typography>
+        </Toolbar>
         <Toolbar />
         <Divider />
         <List>          
